@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+a.nav{
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+    color: #f2f2f2;
+}
+
+nav .nav{
+    background-color: #4d1366;
+   display: flex;
+   gap: 20px;
+   justify-content: flex-end;
+   align-items: center;
+   padding-right: 20px;
+   height: 150px;
+}
+
+.secao1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+.descricao{
+    padding-right: 20px;
+    padding-left: 50px;
+    place-self: center;
+}
+.descricao h1{
+    font-family: "Kanit";
+    font-size: 60px;
+    color: #0d0311;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.descricao h2{
+    font-family: "Kanit";
+    font-size: 40px;
+    color:  #4d1366;
+    text-transform: uppercase;
+}
+
+.descricao p{
+
+    font-family: "MontSerrat", sans-serif;
+    font-size: 18px;
+    padding-top: 50px;
+    text-align: justify;
+
+}
+.img{
+    height: 400px;
+    width: 300px;
+    border-radius: 30%;
+    display: grid;
+    place-self: center;
+}
+
+.secao2{
+    background-color: #4d1366;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    place-self: center;
+}
+
+.sobreMim p{
+    text-transform: uppercase;
+    font-family: "Kanit";
+    font-size: 40px;
+    color: #f2f2f2;
+    padding-bottom: 50px;
+}
+
+.sobreMim li{
+    list-style: disc;
+    font-family: "MontSerrat", sans-serif;
+    font-size: 20px;
+    color: #f2f2f2;
+
+}
+.imagem2{
+    width: 400px;
+    height: 300px;
+    border-radius: 4px;
+}
+
+.secao3{
+    background-color: #f2f2f2;
+    padding: 100px;
+
+}
+
+#formacao {
+    font-family: "Kanit";
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4d1366;
+    font-weight: initial;
+    padding-bottom: 50px;
+}
+.formacao li {
+font-family: "MontSerrat", sans-serif;
+font-size: 20px;
+color: #4d1366;;
+}
+
+.secao4{
+
+    background-color: #4d1366;
+    padding: 100px;
+    margin: 0px;
+    display: grid;
+  
+}
+
+.habilidades{
+    font-family: "Kanit";
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    font-weight: initial;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.idiomas, .comunicacao, .gestao, .csharp, .html, .css, .bancodedados, .javascript{
+    display: grid;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    justify-content: center;
+}
+.idiomas h2, .comunicacao h2, .gestao h2, .csharp h2, .html h2, .css h2, .bancodedados h2, .javascript h2{
+    font-size: 20px;
+    font-family: "kanit",sans-serif;
+    padding-bottom: 10px;
+    color: #F2F2F2;
+    text-transform: uppercase;
+    text-align: center;
+}
+.idiomas p, .comunicacao p, .gestao p, .csharp p, .html p, .css p, .bancodedados p, .javascript p{
+    font-size: 16px;
+    font-family: "MontSerrat",sans-serif;
+    color: #F2F2F2;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.habilidades1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-content: center;
+    gap: 20px;
+}
+.habilidades2{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.habilidades1 img, .habilidades2 img{
+    width: 60px;
+    height: 60px;
+   
+}
+
+#imgidiomas, #imgbd, #imgcsharp, #imgtempo, #imghtml, #imgcss, #imgcomunicacao, #imgjavascript{
+    place-self: center;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #F2F2F2;
+    padding: 50px;
+}
+ 
+a.footer{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #4d1366;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "Kanit";
+}
+
+#projetos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#projetos img{
+    width: 250px;
+    height: 300px;
+}
+#projetos div{
+    border: 1px solid #4d1366;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 8px;
+}
+#projetos h2{
+     font-size: 20px;
+    font-family: "kanit",sans-serif;
+    padding-bottom: 10px;
+    color: #4d1366;
+    text-transform: uppercase;
+    text-align: center;
+}
+#projetos img:hover{
+    cursor: pointer;
+}
+#projetos h2:hover{
+    cursor: pointer;
+    color: #0d0311;
+    animation:0.5s;
+}
+#projetos p{
+    font-size: 16px;
+    font-family: "MontSerrat",sans-serif;
+    color: #0d0311;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.h1projetos{
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: "kanit",sans-serif;
+    padding-bottom: 10px;
+    color: #4d1366;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pprojetos{
+    font-size: 16px;
+    font-family: "MontSerrat",sans-serif;
+    color: #0d0311;
+    text-align: center;
+}
+@media (max-width: 767px){
+nav .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header{
+    width: 100%;
+}
+.secao1, .secao2{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 727px;
+}
+
+
+.img, .imagem2{
+
+ max-width: 200px;
+ max-height: 200px;
+ padding-top: 20px;
+ display: grid;
+ grid-template-columns: 1fr;
+ place-self: center;
+}
+
+.sobreMim p{
+    text-transform: uppercase;
+    font-family: "Kanit";
+    font-size: 40px;
+    color: #f2f2f2;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+}
+
+@media (max-width: 400px){
+nav .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+header{
+    width: 100%;
+}
+.secao1, .secao2{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 400px;
+}
+
+.img, .imagem2{
+
+ max-width: 200px;
+ max-height: 200px;
+ padding-top: 20px;
+ display: grid;
+ grid-template-columns: 1fr;
+ place-self: center;
+}
+
+.sobreMim p{
+    text-transform: uppercase;
+    font-family: "Kanit";
+    font-size: 40px;
+    color: #f2f2f2;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.habilidades1{
+    display: grid;
+    grid-template-columns: 1fr  ;
+    justify-content: center;
+    gap: 20px;
+}
+.habilidades2{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 20px;
+}
+
+}

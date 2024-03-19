@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+a.nav{
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+    color: #f2f2f2;
+}
+
+nav .nav{
+    background-color: #4d1366;
+   display: flex;
+   gap: 20px;
+   justify-content: flex-end;
+   align-items: center;
+   padding-right: 20px;
+   height: 150px;
+}
+p{
+    font-family: "Kanit";
+    font-size: 30px;
+    text-align: center;
+    color: #4d1366;
+    
+
+}
+.contato{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;}
+
+.formulario{
+    display: grid;
+    font-family: "MontSerrat";
+    color: #F2F2F2;
+    background-color: #4d1366;
+    padding: 50px;
+    border: 1px solid #F2F2F2; 
+    border-radius: 4px;
+    padding-right: 100px;
+ 
+   
+  
+}
+
+#botao{
+    font-family: "Kanit";
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+}
+footer{
+    background-color: #4d1366;
+    padding: 50px;
+}
+ 
+a.footer{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "Kanit";
+}
